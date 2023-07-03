@@ -1,0 +1,385 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+
+:root {
+  --orange: rgba(255, 136, 0, .7);
+  --font-family: 'Open Sans', sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* ============= header ===========*/
+
+.header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 10;
+  background: inherit;
+  font-family: var(--font-family);
+}
+
+.nav__color {
+  background-color: var(--orange);
+}
+
+.nav__title {
+  font-size: larger;
+  font-weight: 600;
+}
+
+.nav-link-color {
+  font-size: medium;
+  font-weight: 700;
+}
+
+.font__size {
+  font-size: small;
+}
+
+.position__class__con {
+  position: relative;
+  border: 1px solid white;
+  margin-top: 57px;
+  background-color: var(--orange);
+  font-family: var(--font-family);
+}
+
+.img {
+  height: 250px;
+  width: 250px;
+  border-radius: 50%;
+}
+
+/* =============== about =================*/
+
+.about_title {
+  font-size: 2.5rem;
+  padding-bottom: 2.5rem 0;
+}
+
+.about_description {
+  font-size: 1.5rem;
+  padding: 1rem 0;
+}
+
+@media screen and (max-width:992px) {
+  .about_title {
+    font-size: 2rem;
+    padding-bottom: 2rem 0;
+  }
+
+  .about_description {
+    font-size: 1rem;
+    padding: 0.5rem 0;
+  }
+}
+
+.position__class__div2 {
+  border: 1px solid white;
+  text-align: center;
+  background-color: var(--orange);
+  color: white;
+}
+
+.button {
+  padding: 1rem 1.2rem;
+  font-size: .75rem;
+  margin: .25rem;
+  font-family: var(--font-family);
+  background-color: var(--orange);
+  display: inline;
+  border-radius: 1.5rem;
+  text-decoration: none;
+  color: white;
+}
+
+.button:hover {
+  color: white;
+  font-size: .8rem;
+}
+
+@media screen and (min-width:1400px) {
+  .position__class__div2 {
+    position: relative;
+    left: -100px;
+  }
+}
+
+.about_class {
+  border: 1px solid white;
+  background-color: var(--orange);
+  color: white;
+}
+
+.about_me_title {
+  font-size: 2rem;
+  font-family: var(--font-family);
+  font-weight: 800;
+  text-align: center;
+}
+
+.about_me-description {
+  font-size: 1.5rem;
+  font-family: var(--font-family);
+  text-align: center;
+}
+
+@media screen and (max-width:992px) {
+  .about_me_title {
+    font-size: 1.5rem;
+
+  }
+
+  .about_me-description {
+    font-size: 1.25rem;
+
+  }
+
+  .Skills__title {
+    font-size: 1.5rem;
+
+  }
+
+  .Skills {
+    font-size: 1rem;
+
+  }
+}
+
+.Skills__title {
+  font-size: 2rem;
+  font-family: var(--font-family);
+  font-weight: 800;
+  text-align: center;
+}
+
+.Skills {
+  font-size: 1.5rem;
+  font-family: var(--font-family);
+  text-align: center;
+}
+
+.additional_info {
+  background-color: var(--orange);
+  color: white;
+  border: 1px solid white;
+}
+
+/** ============ Projects ============*/
+.border {
+  border: 1px solid black;
+}
+
+.project1 {
+  background-color: var(--orange);
+  color: white;
+  font-family: var(--font-family);
+}
+
+.project2 {
+  background-color: var(--orange);
+  color: white;
+  font-family: var(--font-family);
+}
+
+.project2_image {
+  width: auto;
+}
+
+.project1_description {
+  color: white;
+  font-weight: 600;
+  font-size: large;
+}
+
+/* ===========Education========= */
+.education {
+  position: relative;
+  background-color: var(--orange);
+  height: 400px;
+  font-family: var(--font-family);
+}
+
+.college,
+.passing,
+.cgpa {
+  font-size: medium;
+}
+
+.ug {
+  position: absolute;
+  top: 15%;
+  left: 15%;
+}
+
+.intermediate {
+  position: absolute;
+  right: 20%;
+  top: 50%;
+}
+
+.secondary {
+  position: absolute;
+  bottom: 20%;
+  left: 15%;
+}
+
+
+@media screen and (max-width:992px) {
+
+  .college,
+  .passing,
+  .cgpa {
+    font-size: x-small;
+  }
+
+  .ug {
+    position: absolute;
+    top: 15%;
+    left: 15%;
+  }
+
+  .intermediate {
+    position: absolute;
+    right: 10%;
+    top: 40%;
+  }
+
+  .secondary {
+    position: absolute;
+    bottom: 20%;
+    left: 15%;
+  }
+
+
+}
+
+/* ========== hr ======*/
+.hr_style {
+  width: 100%;
+  height: 1px;
+  background-color: black;
+}
+
+/* =============== Contact ============== */
+.contact_class {
+  background-color: var(--orange);
+  font-family: var(--font-family);
+}
+
+.input-field {
+  background-color: hsla(0, 0%, 100%, 1);
+  color: hsla(220, 12%, 43%, 1);
+  font-size: 1rem;
+  padding: 10px 14px;
+  border-radius: 6px;
+  outline: none;
+  border: none;
+  margin-block-end: 20px;
+}
+
+.input__style::placeholder {
+  color: black;
+}
+
+.card-icon {
+  width: 44px;
+  height: 44px;
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+
+@media screen and (max-width:992px) {
+  .card-icon {
+    width: 24px;
+    height: 24px;
+    margin-top: 20px;
+  }
+
+  .section-title {
+    font-size: medium;
+  }
+
+  .section-text,
+  .input-field,
+  .submit {
+    font-size: smaller;
+  }
+}
+
+/* ============== FOOTER ============= */
+
+.footer {
+  padding-block: 40px;
+  background-color: var(--orange);
+  font-family: var(--font-family);
+}
+
+.copyright {
+  margin-block-end: 12px;
+}
+
+.footer .social-link {
+  color: var(--charcoal);
+  padding: 5px 7px;
+  border-radius: 50%;
+  background-color: white;
+}
+
+.footer ul {
+  list-style-type: none;
+}
+
+
+@media screen and (max-width:992px) {
+  p {
+    width: 100%;
+  }
+
+}
+
+/*=============== SCROLL UP ===============*/
+.scrollup {
+  position: fixed;
+  right: -3rem;
+  bottom: 3rem;
+  background-color: var(--orange);
+  backdrop-filter: blur(16px);
+  display: inline-flex;
+  padding: .45rem;
+  border-radius: .5rem;
+  font-size: 1.15rem;
+  color: white;
+  z-index: var(--z-tooltip);
+  transition: .4s;
+  border: 1px solid white;
+  text-decoration: none;
+}
+
+.scrollup:hover {
+  transform: translateY(-.25rem);
+  background-color: white;
+  color: var(--orange);
+}
+
+/* Show Scroll Up*/
+.show-scroll {
+  right: 3rem;
+}
+
+/* ============= webkit scrollbar ============ */
+
+::-webkit-scrollbar {
+  background-color: white;
+  width: .3rem;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: var(--orange);
+  width: .4rem;
+  border-radius: 12px;
+}
